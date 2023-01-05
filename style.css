@@ -1,0 +1,127 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color:rgb(0, 153, 94);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.divider {
+    border-top: 3px solid rgb(243, 243, 243);
+}
+
+/*Headers*/
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align:center;
+}
+
+/*Navbar*/
+#navbar {
+    background-color:rgb(0, 145, 202);
+    padding:10px;
+    font-family:"Times New Roman";
+    color: aqua;
+    border-style:double;
+    border-width:10px;
+    display:block;
+    text-align:center;
+    font-size: large;
+}
+
+li {
+    display:inline-block;
+    padding:3px;
+}
+
+a {
+    color:aqua;
+    text-decoration: none;
+}
+
+/*Main Picture*/
+#grandcanyon {
+    display:block;
+    height:300px;
+    border:double;
+    border-width: 7px;
+    border-color:aqua;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+/*About*/
+#about {
+    border:double;
+    width:50%;
+    margin:auto;
+    color:rgb(255, 255, 255);
+    margin-bottom:40px;
+    margin-top:35px;
+    background:goldenrod;
+}
+
+#aboutparagraph {
+    padding:10px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+/*Projects*/
+#projects {
+    background:goldenrod;
+    border:double;
+    width:60%;
+    margin:auto;
+    color:rgb(255, 255, 255);
+    margin-bottom:40px;
+}
+
+#threeprojectsdiv {
+    display:flex;
+}
+
+#musicolorflex {
+    flex:1;
+}
+
+#investobotflex {
+    flex:1;
+}
+
+#petrockflex {
+    flex:1;
+}
+
+#projectpictures {
+    height:100px;
+    margin-left: 60px;
+}
+
+#musicolorandinvestobotheaders {
+    margin-left:90px;
+}
+
+/*Contact*/
+#contact {
+    border:double;
+    width:30%;
+    margin:auto;
+    color:rgb(255, 255, 255);
+    margin-bottom: 40px;
+    background:goldenrod;
+}
+
+#contactparagraph {
+    margin-bottom:3px;
+    text-align: center;
+}
